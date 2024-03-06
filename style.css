@@ -1,0 +1,35 @@
+
+
+.container {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+#film{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    
+}
+.film{
+    padding-right:10px;
+}
+
+#favorites {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.favoriteMovie {
+    margin: 10px;
+    text-align: center;
+}
+
+.favoriteMovie img {
+    width: 150px;
+    height: auto;
+}
